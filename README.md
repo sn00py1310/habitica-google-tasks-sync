@@ -1,1 +1,35 @@
 # Habitica Google Tasks Sync
+
+## Features
+- Rate Limit efficient, only changes updated Google Tasks
+- One-way synchronization from Google Tasks to Habitica
+    - Syncs tasks that have been unmarked again (with a limit of Habitica auto delete and only 30 latest marked tasks)
+    - Auto deletes Habitica tasks when Google Task got deleted
+- Add default Tags for easy searching
+
+## Limitations
+- No synchronization when a Task is moved to excluded Task Lists
+- Subtasks a treated as their individual tasks
+- No due date implementation
+- If too many changes between the executions the script can crash.
+
+## Setup
+### Installation
+1. Go to the [latest release](./releases/latest) and download the .zip or .tar.gz file.
+2. Create a Google App Script (GAS) Project [here](https://script.google.com).
+3. Copy the content of the `src` folder in the downloaded release to the create GAS Project.
+4. Get your Habitica API user and token from [here](https://habitica.com/user/settings/api).
+5. Setup the project variables for the GAS Project under the settings, see [Setting](#settings).
+6. In the GAS Project create a trigger for the function main. Set the repeating time to 5min.
+7. Go to the main file and run the main method once, now you should get a pop-up to request access to your Task and to send external requests.
+8. See the Tasks sync to Habitica.
+
+
+### Settings
+| Optional | Key | Value |
+| --- | --- | --- |
+| :x: | `habitica_api_key` | The Api key for your Habitica account |
+| :x: | `habitica_api_user` | The Api user for your Habitica account |
+| :heavy_check_mark: | `habitica_tags` | A comma (`,`) separated list of tags to add to the Tasks |
+| :heavy_check_mark: | `excludedTaskLists` | A comma (`,`) separated list of Google Tasks List id to exclude |
+| :heavy_check_mark: | `lastRun` | `System Settig` A timestamp to keep track of the last runs, to only get update Google Tasks |
