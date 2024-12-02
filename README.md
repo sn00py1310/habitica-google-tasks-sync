@@ -35,7 +35,7 @@
 | :x: | `habitica_api_user` | The Api user for your Habitica account |
 | :heavy_check_mark: | `habitica_tags` | A comma (`,`) separated list of tags to add to the Tasks |
 | :heavy_check_mark: | `excludedTaskLists` | A comma (`,`) separated list of Google Tasks List id to exclude (no spaces). See tutorial below |
-| :heavy_check_mark: | `lastRun` | `System Setting` A timestamp to keep track of the last runs, to only get update Google Tasks. You don't need to created, it will be done automatically |
+| :heavy_check_mark: | `lastRun` | `System Setting` A timestamp to keep track of the last runs, to only get update Google Tasks. You don't need to create it, it will be done automatically |
 
 
 
