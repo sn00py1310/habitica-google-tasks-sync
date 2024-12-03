@@ -41,11 +41,11 @@
 #### Getting Google Task IDs
 The simplest way to obtain the IDs for the lists we don't want to consider is to run the tool once and write them down. Please note that this will copy all those tasks into Habitica, so you may need to manually remove them to finish your set-up.
 
-1. Go to [GAS](https://script.google.com/home) and select your project
-2. In the code editor, select `main.py`
-3. After having completed up to step 7 from the **Installation** tutorial, execute `main.py`
-4. Scroll down to find your lists' names and IDs
+1. Go to [GAS](https://script.google.com/home) and select your project.
+2. In the code editor, select `main`.
+3. After having completed up to step 7 from the **Installation** tutorial, execute `main`.
+4. Scroll down to find your lists' names and IDs.
 5. Fill in `excludedTaskLists` within the **Settings**. Simply copy the IDs. Do not include spaces between the items.
-   
-    *Example: R22gbHZENWt3amJMDPZQL,MQE1Nzc0NjA1OTE2MzutNTk0N6MDow,T26ybHZENWt3amJMWXZQLQ*
-7. Rerun `main.py`and check it is working as intended
+
+   Example: `R22gbHZENWt3amJMDPZQL,MQE1Nzc0NjA1OTE2MzutNTk0N6MDow,T26ybHZENWt3amJMWXZQLQ`
+7. Rerun `main`and check it is working as intended.
