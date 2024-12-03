@@ -39,7 +39,7 @@
 
 
 #### Getting Google Task IDs
-The simplest way to obtain the IDs for the lists we don't want to consider, is to run the tool once and write them down. Please note that this will write all of those tasks in Habitica, so you may need to manually remove them to finish your set-up.
+The simplest way to obtain the IDs for the lists we don't want to consider is to run the tool once and write them down. Please note that this will copy all those tasks into Habitica, so you may need to manually remove them to finish your set-up.
 
 1. Go to [GAS](https://script.google.com/home) and select your project
 2. In the code editor, select `main.py`
