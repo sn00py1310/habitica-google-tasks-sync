@@ -19,8 +19,7 @@
 2. Create a Google App Script (GAS) Project [here](https://script.google.com).
 3. Copy the content of the `src` folder in the downloaded release to the create GAS Project.
 4. Get your Habitica API user and token from [here](https://habitica.com/user/settings/api).
-5. Add the "Tasks API" service to the Apps Script project.
-        From within the project, select the "Services" + then scroll down and add the "Tasks API" service.
+5. Add the "Tasks API" service to the Apps Script project. From within the project, select the "Services" + then scroll down and add the "Tasks API" service.
 
 7. Setup the project variables for the GAS Project under the settings, see [Setting](#settings).
 8. In the GAS Project create a trigger for the function main. Set the repeating time to 5min.
