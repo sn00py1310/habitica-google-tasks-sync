@@ -20,11 +20,10 @@
 3. Copy the content of the `src` folder in the downloaded release to the create GAS Project.
 4. Get your Habitica API user and token from [here](https://habitica.com/user/settings/api).
 5. Add the "Tasks API" service to the Apps Script project. From within the project, select the "Services" + then scroll down and add the "Tasks API" service.
-
-7. Setup the project variables for the GAS Project under the settings, see [Setting](#settings).
-8. In the GAS Project create a trigger for the function main. Set the repeating time to 5min.
-9. Go to the main file and run the main method once, now you should get a pop-up to request access to your Task and to send external requests.
-10. See the Tasks sync to Habitica.
+6. Setup the project variables for the GAS Project under the settings, see [Setting](#settings).
+7. In the GAS Project create a trigger for the function main. Set the repeating time to 5min.
+8. Go to the main file and run the main method once, now you should get a pop-up to request access to your Task and to send external requests.
+9. See the Tasks sync to Habitica.
 
 
 ### Settings
